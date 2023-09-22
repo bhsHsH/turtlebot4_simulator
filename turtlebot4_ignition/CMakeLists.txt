@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.8)
+project(turtlebot4_ignition)
+find_package(ament_cmake REQUIRED)
+add_subdirectory(turtlebot4_ignition_bringup)
+add_subdirectory(turtlebot4_ignition_gui_plugins)
+add_subdirectory(turtlebot4_ignition_toolbox)
+ament_package()
