@@ -77,16 +77,7 @@
         <static>false</static>
         <pose>0.0 0.0 0.2 0 0 0</pose>
       </include> -->
-
-<!--
-      <include>
-        <uri>model://turtlebot3_waffle</uri>
-        <static>false</static>
-        <pose>0.0 0.0 0.2 0 0 0</pose>
-      </include>
-      
--->
-      
+     
     <!-- Usage: modify the <pose> elements of each actor to change their
          starting location. Modify the <target> elements of each actor to
          change their destination. The <target_weight> can be used to
